@@ -47,7 +47,7 @@ The files were compared using `site_id` as the common key.
 
 | Site ID | Site name | Current label | PII detected | Risk note |
 |---|---|---|---:|---|
-| `S-003` | HR Benefits Enrolment | Confidential / All Employees | `622` | Significant HR-related PII with broad label wording and external guest access requires review before go-live. |
+| `S-003` | HR Benefits Enrolment | Confidential / All Employees | `410` | Significant HR-related PII with broad label wording and external guest access requires review before go-live. |
 | `S-004` | Finance Draft Budgets | Highly Confidential / Specific People | `77` | Non-standard label requires validation and remapping before Copilot inclusion. |
 | `S-005` | Hansard Broadcast Ops | Internal | `150` | Internal site contains PII and has anonymous links and external guests. |
 | `S-006` | Legal Opinions Library | Restricted | `33` | Restricted legal content contains PII and has anonymous links and external guests. |
