@@ -1,3 +1,5 @@
 # Presentation (if shortlisted)
 
-[Copilot Rollout Presentation](slides/copilot_rollout_presentation.pptx)
+A three-slide presentation will be added here if I am shortlisted, as requested in the assignment instructions.
+
+Planned file path: `slides/copilot_rollout_presentation.pptx`
