@@ -28,7 +28,7 @@
 | S-019 | Confidential-Security | Out of Scope until remediated | Network diagrams are security-sensitive and anonymous links should be remediated before go-live. |
 | S-020 | Restricted-People | Out of Scope | Restricted content should be excluded from Copilot scope at go-live. Unannounced reorganization plans are listed as a Restricted example in the deck. |
 | S-021 | Confidential-Financial | Out of Scope until validated | Expense claims may contain personal and financial information. Financial records, including expense claims, are listed under the Financial descriptor in the deck, so access should be validated before go-live. |
-| S-022 | Internal | Out of Scope until remediated | Anonymous links, blank labelling, and stale records should be reviewed before go-live. |
+| S-022 | Confidential-People | Out of Scope until remediated | Legacy archive contains significant personal information, has no current label, is stale, and has anonymous links. Requires owner review, access cleanup, and retention review before Copilot exposure. |
 | S-023 | Public | In Scope | Approved media releases are public-facing Assembly content. |
 | S-024 | Restricted-Security | Out of Scope | Restricted incident response content should be excluded from Copilot scope at go-live. |
 

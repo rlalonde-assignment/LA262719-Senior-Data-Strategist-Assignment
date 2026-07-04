@@ -106,6 +106,7 @@ The files were compared using `site_id` as the common key.
 | Issue | Site ID(s) | Correction / handling |
 |---|---|---|
 | `site_id` discrepancy | `S-099` and `S-101` are not found in other files. | No correction applied. Investigation of the source of these entries should be conducted. |
+| Duplicate Scan | `S-003` has a listed duplicate scan. | The duplicate entry was removed. Investigation of the source of these entries should be conducted. |
 
 ## Claims to verify
 
@@ -113,7 +114,7 @@ The files were compared using `site_id` as the common key.
   This is not supported by the provided licensing file. The file shows some users without E7 licences, and the total user count is much lower than 900.
 
 - **The early read of the scan suggests 847 files contain Social Insurance Numbers.**  
-  The PII detections file supports the presence of SIN findings, with at least 660 SIN detections identified. However, some detection records do not include numerical counts, so the 847 figure should be verified before being treated as confirmed.
+  The PII file contains numeric SIN match counts, but the 847-files claim is not confirmed. Numeric SIN rows total 448 in pii_detections file. The unmapped S-099 row also lists SIN as “many,” so the result should be validated before reporting a confirmed file count.
 
 - **The classifications follow the Assembly’s standard and confirm FOIPPA compliance.**  
   The classifications are based on the provided classification standard and should be treated as guidance only. They do not confirm FOIPPA compliance. FOIPPA compliance must still be assessed separately based on collection, use, disclosure, access controls, retention, residency, and business context.
